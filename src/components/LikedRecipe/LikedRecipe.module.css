@@ -1,0 +1,41 @@
+.favoriteList{
+  padding: 0;
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 1rem;
+}
+.Link{
+  flex: 0 0 80%;
+  display: flex;
+  align-items: center;
+  background: #db907869;
+}
+
+.favorite{
+  display: flex;
+  margin: .5rem;
+  align-items: center;
+  background: #bdb8ae4a;
+  flex-basis: 90%;
+  justify-content: right;
+}
+.favorite img{
+  width: 5rem;
+  border-radius: 100%;
+  margin-right: 10px;
+  padding: 1rem;
+}
+.favoriteName{
+  font-size: 1rem;
+  font-weight: 400;
+  color: #878282;
+  max-width: 50%;
+}
+.fav{
+  margin-left: auto;
+  margin-right: 1rem;
+  font-size: 2rem;
+  fill: red;
+  cursor: pointer;
+
+}

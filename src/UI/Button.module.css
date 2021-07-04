@@ -1,0 +1,21 @@
+.Button{
+  display: block;
+  width: 8rem;
+  padding: .8rem;
+  margin-top: 5px;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  box-shadow: 0px 0px 14px 0px black;
+  cursor: pointer;
+  transition: .2s;
+}
+.close{
+  background: #151414;
+  width: 5rem;
+  padding: .4rem;
+  box-shadow: none;
+}
+.searchButton{
+  background: #e87551fc;
+}

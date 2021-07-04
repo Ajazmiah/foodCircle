@@ -1,0 +1,107 @@
+.Header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  margin-bottom: 0;
+}
+.Logo{
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.BurgerMenu{
+
+  font-size: 2rem;
+  cursor: pointer;
+  display: none;
+  position: relative;
+  z-index: 1;
+  background: white;
+  border-radius: 5px;
+}
+li{
+  list-style: none;
+  margin-inline: .5rem;
+  text-transform: uppercase;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.Logo h3{
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: serif;
+  padding: .5rem;
+  font-weight: 200;
+}
+.Logo span{
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+.Nav{flex: 0 0 55%;}
+.NavList{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-basis: 100%;
+}
+.NavItem{
+  list-style: none;
+  margin-left: 15px;
+  text-transform: uppercase;
+  overflow: hidden;
+  cursor: pointer;
+}
+.NavItem::after{
+  display: block;
+  content: "";
+  height:4px;
+  transition: all .4s;
+  width: 100%;
+  background: #2b8bc0;
+  transform: translateX(-100%);
+
+}
+.FavoriteRecipe{
+  background: #ff8c8c;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  border-radius: 100%;
+  cursor: pointer;
+  position: relative;
+}
+.LikedIncon{
+  width: 1.5rem;
+  height: 2rm;
+  height: 2rem;
+  padding: .2rem;
+  border-radius: 100%;
+  height: 100%;
+
+}
+.active{color: #ff5722e6;
+    font-weight: bolder;}
+.numFav{
+  position: absolute;
+  color: red;
+  background: red;
+  color: #fff;
+  border-radius: 100%;
+  width: 21px;
+  text-align: center;
+  font-size: 15px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -10px;
+  left: 19px;
+  font-weight: 200;
+}
+.NavItem:hover::after{transform: translateX(0);}

@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.Label{
+  text-align: center;
+  text-transform: uppercase;
+  color: #6a6a6a;
+}
+.recipeInfo{
+  text-align: center;
+
+}
+.calories{
+  font-size: 1.4rem;
+  color: #ff7448ed;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+}
+.recipeInfo img{padding: 4rem;}
+.recipe{}
+.ingredientsDiv{
+}
+.ingredientLists{
+}
+.ingredient{
+
+}
+.nutrientLists{
+
+}
+.lists{
+  padding: .3rem;
+background: #cf7979bd;
+margin: .2rem;
+color: #fff;
+}
+.detailsWrapper{
+  display: flex;
+    justify-content: space-evenly;
+    padding: .5rem;
+    padding-top: 2rem;
+    background: #faebd7f5;
+}
+.nutritionDiv{
+}
+.nutritionList{
+}
+.nutritionItem{
+}
