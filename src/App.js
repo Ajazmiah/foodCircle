@@ -14,8 +14,6 @@ function App() {
   const [showSingleRecipe, setShowSingleRecipe] = useState(false);
   const params = useParams();
 
-
-
   const setShowLikedRecipeHandler = ()=>{
     setShowLikedRecipe((prevShowLikedRecipe)=> !prevShowLikedRecipe);
   }
